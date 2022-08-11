@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   button.addEventListener("click", function () {
     const heading = document.querySelector("#heading");
     if (!heading) return;
-    heading.textContent = "v0.2.0";
+    heading.textContent = "v0.3.0";
   });
 
   // setup splide
