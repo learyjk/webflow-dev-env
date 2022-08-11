@@ -1,0 +1,23 @@
+{
+  "name": "webflow-dev-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "esbuild index.ts --bundle --outfile=dist/index.js --watch",
+    "build-by-file": "node builder.js",
+    "build-with-tsc": "tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.1",
+    "serve": "^14.0.1"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.0.7",
+    "typescript": "^4.7.4"
+  }
+}
